@@ -3,6 +3,20 @@
     transform: translate(-50%);
 }
 
+@media only screen and (max-width: 880px) {
+    #hiddenable{
+        display: none !important;
+
+    }
+}
+
+@media only screen and (min-width: 880px) {
+    #hiddenable-text{
+        display: none !important;
+
+    }
+}
+
 a {
     text-decoration: none !important;
     color: #fff !important;
@@ -13,9 +27,17 @@ a:hover{
 }
 
 #tittle-footer{
-
     color: #fe8431;
 
+}
+
+ul{
+    list-style-type: none;
+}
+
+li #login-list{
+    display: inline !important;
+    float: left !important;
 }
 
 img{
