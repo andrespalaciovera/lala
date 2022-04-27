@@ -1,6 +1,5 @@
 .navbar-brand{
-    margin-left: 50%;
-    transform: translate(-50%);
+    margin-left: 36%;
 }
 
 @media only screen and (max-width: 880px) {
@@ -48,6 +47,12 @@ img{
 #header-logo{
     height: 50px;
     width: 50px;
+}
+
+#header-icon-signup{
+    height: 35px;
+    width: 35px;
+    margin: 1em;
 }
 
 #header-icon{
