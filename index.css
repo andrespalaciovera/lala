@@ -22,7 +22,13 @@ a {
 }
 
 a:hover{
-    color: #c5c5c5;
+    color: #c5c5c5 !important;
+}
+
+#main .carousel-inner img{
+    max-height: 40vh;
+    object-fit: cover;
+
 }
 
 #tittle-footer{
