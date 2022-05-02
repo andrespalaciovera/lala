@@ -26,7 +26,7 @@ a:hover{
 }
 
 #main .carousel-inner img{
-    max-height: 40vh;
+    max-height: 60vh;
     object-fit: cover;
 
 }
@@ -64,6 +64,11 @@ img{
 #header-icon{
     height: 50px;
     width: 50px;
+}
+
+.card{
+    width: 18rem;
+    margin: auto;
 }
 
 #footer-logo{
