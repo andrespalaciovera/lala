@@ -66,6 +66,25 @@ img{
     width: 50px;
 }
 
+#heading div{
+    height: 150px;
+}
+.display-5{
+    margin-top: 3% !important;
+    color: darkgrey;
+}
+
+#carousel-button{
+    filter: invert(100%) !important;
+}
+
+@media only screen and (max-width: 880px) {
+    #hiddenable-carousel{
+        display: none !important;
+
+    }
+}
+
 .card{
     width: 18rem;
     margin: auto;

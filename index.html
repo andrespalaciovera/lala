@@ -114,7 +114,7 @@
         </div>
         
         
-        <ul class="nav nav-tabs nav-fill" id="myTab" role="tablist">
+        <ul class="nav nav-pills nav-fill">
 
           <li class="nav-item" role="presentation">
             <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Café</button>
@@ -131,76 +131,254 @@
         <div class="tab-content" id="myTabContent">
           <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="Café">
 
-            <div class="card-group">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
 
-              <div class="card text-center">
-                <img src="/Assets/products/coffee.jpg" class="card-img-top" alt="café">
-                <div class="card-body">
-                  <h5 class="card-title">El mejor café</h5>
-                  <p class="card-text">Descripción del café.</p>
-                  <a href="#" class="btn btn-primary">Comprar</a>
-                  <p class="card-text"><small class="text-muted">En exitencia</small></p>
+                <div class="carousel-item active">
+
+                  <div class="card-group">
+
+                    <div class="card text-center">
+                      <img src="/Assets/products/coffee.jpg" class="card-img-top" alt="café">
+                      <div class="card-body">
+                        <h5 class="card-title">El mejor café</h5>
+                        <p class="card-text">Descripción del café.</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <p class="card-text"><small class="text-muted">En exitencia</small></p>
+                      </div>
+                    </div>
+      
+                    <div class="card text-center" id="hiddenable-carousel">
+                      <img src="/Assets/products/coffee.jpg" class="card-img-top" alt="café">
+                      <div class="card-body">
+                        <h5 class="card-title">El mejor café</h5>
+                        <p class="card-text">Descripción del café</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <p class="card-text"><small class="text-muted">En exitencia</small></p>
+                      </div>
+                    </div>
+      
+                    <div class="card text-center" id="hiddenable-carousel">
+                      <img src="/Assets/products/coffee.jpg" class="card-img-top" alt="café">
+                      <div class="card-body">
+                        <h5 class="card-title">El mejor café</h5>
+                        <p class="card-text">Descripción del café</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <p class="card-text"><small class="text-muted">En exitencia</small></p>
+                      </div>
+                    </div>
+      
+                  </div>
+                  
+                </div>
+                <div class="carousel-item">
+                  <div class="card-group">
+
+                    <div class="card text-center">
+                      <img src="/Assets/products/coffee.jpg" class="card-img-top" alt="café">
+                      <div class="card-body">
+                        <h5 class="card-title">El mejor café</h5>
+                        <p class="card-text">Descripción del café.</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <p class="card-text"><small class="text-muted">En exitencia</small></p>
+                      </div>
+                    </div>
+      
+                    <div class="card text-center" id="hiddenable-carousel">
+                      <img src="/Assets/products/coffee.jpg" class="card-img-top" alt="café">
+                      <div class="card-body">
+                        <h5 class="card-title">El mejor café</h5>
+                        <p class="card-text">Descripción del café</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <p class="card-text"><small class="text-muted">En exitencia</small></p>
+                      </div>
+                    </div>
+      
+                    <div class="card text-center" id="hiddenable-carousel">
+                      <img src="/Assets/products/coffee.jpg" class="card-img-top" alt="café">
+                      <div class="card-body">
+                        <h5 class="card-title">El mejor café</h5>
+                        <p class="card-text">Descripción del café</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <p class="card-text"><small class="text-muted">En exitencia</small></p>
+                      </div>
+                    </div>
+      
+                  </div>
+                </div>
+                
+                <div class="carousel-item">
+                  <div class="card-group">
+
+                    <div class="card text-center">
+                      <img src="/Assets/products/coffee.jpg" class="card-img-top" alt="café">
+                      <div class="card-body">
+                        <h5 class="card-title">El mejor café</h5>
+                        <p class="card-text">Descripción del café.</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <p class="card-text"><small class="text-muted">En exitencia</small></p>
+                      </div>
+                    </div>
+      
+                    <div class="card text-center" id="hiddenable-carousel">
+                      <img src="/Assets/products/coffee.jpg" class="card-img-top" alt="café">
+                      <div class="card-body">
+                        <h5 class="card-title">El mejor café</h5>
+                        <p class="card-text">Descripción del café</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <p class="card-text"><small class="text-muted">En exitencia</small></p>
+                      </div>
+                    </div>
+      
+                    <div class="card text-center" id="hiddenable-carousel">
+                      <img src="/Assets/products/coffee.jpg" class="card-img-top" alt="café">
+                      <div class="card-body">
+                        <h5 class="card-title">El mejor café</h5>
+                        <p class="card-text">Descripción del café</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <p class="card-text"><small class="text-muted">En exitencia</small></p>
+                      </div>
+                    </div>
+      
+                  </div>
                 </div>
               </div>
+              <button class="carousel-control-prev" id="carousel-button" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev" style="filter: invert(100%);">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" id="carousel-button" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
 
-              <div class="card text-center">
-                <img src="/Assets/products/coffee.jpg" class="card-img-top" alt="café">
-                <div class="card-body">
-                  <h5 class="card-title">El mejor café</h5>
-                  <p class="card-text">Descripción del café</p>
-                  <a href="#" class="btn btn-primary">Comprar</a>
-                  <p class="card-text"><small class="text-muted">En exitencia</small></p>
-                </div>
-              </div>
-
-              <div class="card text-center">
-                <img src="/Assets/products/coffee.jpg" class="card-img-top" alt="café">
-                <div class="card-body">
-                  <h5 class="card-title">El mejor café</h5>
-                  <p class="card-text">Descripción del café</p>
-                  <a href="#" class="btn btn-primary">Comprar</a>
-                  <p class="card-text"><small class="text-muted">En exitencia</small></p>
-                </div>
-              </div>
-
-            </div>             
+                        
 
           </div>
 
           <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="Cafeteras">
 
-            <div class="card-group">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
 
-              <div class="card text-center">
-                <img src="/Assets/products/moca.jpg" class="card-img-top" alt="café">
-                <div class="card-body">
-                  <h5 class="card-title">La mejor cafetera</h5>
-                  <p class="card-text">Descripción.</p>
-                  <a href="#" class="btn btn-primary">Comprar</a>
-                  <p class="card-text"><small class="text-muted">En exitencia</small></p>
+                <div class="carousel-item active">
+
+                  <div class="card-group">
+
+                    <div class="card text-center">
+                      <img src="/Assets/products/coffee.jpg" class="card-img-top" alt="café">
+                      <div class="card-body">
+                        <h5 class="card-title">El mejor café</h5>
+                        <p class="card-text">Descripción del café.</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <p class="card-text"><small class="text-muted">En exitencia</small></p>
+                      </div>
+                    </div>
+      
+                    <div class="card text-center" id="hiddenable-carousel">
+                      <img src="/Assets/products/coffee.jpg" class="card-img-top" alt="café">
+                      <div class="card-body">
+                        <h5 class="card-title">El mejor café</h5>
+                        <p class="card-text">Descripción del café</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <p class="card-text"><small class="text-muted">En exitencia</small></p>
+                      </div>
+                    </div>
+      
+                    <div class="card text-center" id="hiddenable-carousel">
+                      <img src="/Assets/products/coffee.jpg" class="card-img-top" alt="café">
+                      <div class="card-body">
+                        <h5 class="card-title">El mejor café</h5>
+                        <p class="card-text">Descripción del café</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <p class="card-text"><small class="text-muted">En exitencia</small></p>
+                      </div>
+                    </div>
+      
+                  </div>
+                  
+                </div>
+                <div class="carousel-item">
+                  <div class="card-group">
+
+                    <div class="card text-center">
+                      <img src="/Assets/products/coffee.jpg" class="card-img-top" alt="café">
+                      <div class="card-body">
+                        <h5 class="card-title">El mejor café</h5>
+                        <p class="card-text">Descripción del café.</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <p class="card-text"><small class="text-muted">En exitencia</small></p>
+                      </div>
+                    </div>
+      
+                    <div class="card text-center" id="hiddenable-carousel">
+                      <img src="/Assets/products/coffee.jpg" class="card-img-top" alt="café">
+                      <div class="card-body">
+                        <h5 class="card-title">El mejor café</h5>
+                        <p class="card-text">Descripción del café</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <p class="card-text"><small class="text-muted">En exitencia</small></p>
+                      </div>
+                    </div>
+      
+                    <div class="card text-center" id="hiddenable-carousel">
+                      <img src="/Assets/products/coffee.jpg" class="card-img-top" alt="café">
+                      <div class="card-body">
+                        <h5 class="card-title">El mejor café</h5>
+                        <p class="card-text">Descripción del café</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <p class="card-text"><small class="text-muted">En exitencia</small></p>
+                      </div>
+                    </div>
+      
+                  </div>
+                </div>
+                
+                <div class="carousel-item">
+                  <div class="card-group">
+
+                    <div class="card text-center">
+                      <img src="/Assets/products/coffee.jpg" class="card-img-top" alt="café">
+                      <div class="card-body">
+                        <h5 class="card-title">El mejor café</h5>
+                        <p class="card-text">Descripción del café.</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <p class="card-text"><small class="text-muted">En exitencia</small></p>
+                      </div>
+                    </div>
+      
+                    <div class="card text-center" id="hiddenable-carousel">
+                      <img src="/Assets/products/coffee.jpg" class="card-img-top" alt="café">
+                      <div class="card-body">
+                        <h5 class="card-title">El mejor café</h5>
+                        <p class="card-text">Descripción del café</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <p class="card-text"><small class="text-muted">En exitencia</small></p>
+                      </div>
+                    </div>
+      
+                    <div class="card text-center" id="hiddenable-carousel">
+                      <img src="/Assets/products/coffee.jpg" class="card-img-top" alt="café">
+                      <div class="card-body">
+                        <h5 class="card-title">El mejor café</h5>
+                        <p class="card-text">Descripción del café</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <p class="card-text"><small class="text-muted">En exitencia</small></p>
+                      </div>
+                    </div>
+      
+                  </div>
                 </div>
               </div>
-
-              <div class="card text-center">
-                <img src="/Assets/products/moca.jpg" class="card-img-top" alt="café">
-                <div class="card-body">
-                  <h5 class="card-title">La mejor cafetera</h5>
-                  <p class="card-text">Descripción</p>
-                  <a href="#" class="btn btn-primary">Comprar</a>
-                  <p class="card-text"><small class="text-muted">En exitencia</small></p>
-                </div>
-              </div>
-
-              <div class="card text-center">
-                <img src="/Assets/products/moca.jpg" class="card-img-top" alt="café">
-                <div class="card-body">
-                  <h5 class="card-title">La mejor cafetera</h5>
-                  <p class="card-text">Descripción</p>
-                  <a href="#" class="btn btn-primary">Comprar</a>
-                  <p class="card-text"><small class="text-muted">En exitencia</small></p>
-                </div>
-              </div>
-
+              <button class="carousel-control-prev" id="carousel-button" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev" style="filter: invert(100%);">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" id="carousel-button" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
 
           </div>
@@ -208,38 +386,126 @@
   
           <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="Merch">
 
-            <div class="card-group">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
 
-              <div class="card text-center">
-                <img src="/Assets/products/mugh.jpg" class="card-img-top" alt="café">
-                <div class="card-body">
-                  <h5 class="card-title">El mejor mug</h5>
-                  <p class="card-text">Descripción.</p>
-                  <a href="#" class="btn btn-primary">Comprar</a>
-                  <p class="card-text"><small class="text-muted">En exitencia</small></p>
+                <div class="carousel-item active">
+
+                  <div class="card-group">
+
+                    <div class="card text-center">
+                      <img src="/Assets/products/mugh.jpg" class="card-img-top" alt="café">
+                      <div class="card-body">
+                        <h5 class="card-title">El mejor café</h5>
+                        <p class="card-text">Descripción del café.</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <p class="card-text"><small class="text-muted">En exitencia</small></p>
+                      </div>
+                    </div>
+      
+                    <div class="card text-center" id="hiddenable-carousel">
+                      <img src="/Assets/products/mugh.jpg" class="card-img-top" alt="café">
+                      <div class="card-body">
+                        <h5 class="card-title">El mejor café</h5>
+                        <p class="card-text">Descripción del café</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <p class="card-text"><small class="text-muted">En exitencia</small></p>
+                      </div>
+                    </div>
+      
+                    <div class="card text-center" id="hiddenable-carousel">
+                      <img src="/Assets/products/mugh.jpg" class="card-img-top" alt="café">
+                      <div class="card-body">
+                        <h5 class="card-title">El mejor café</h5>
+                        <p class="card-text">Descripción del café</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <p class="card-text"><small class="text-muted">En exitencia</small></p>
+                      </div>
+                    </div>
+      
+                  </div>
+                  
+                </div>
+                <div class="carousel-item">
+                  <div class="card-group">
+
+                    <div class="card text-center">
+                      <img src="/Assets/products/mugh.jpg" class="card-img-top" alt="café">
+                      <div class="card-body">
+                        <h5 class="card-title">El mejor café</h5>
+                        <p class="card-text">Descripción del café.</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <p class="card-text"><small class="text-muted">En exitencia</small></p>
+                      </div>
+                    </div>
+      
+                    <div class="card text-center" id="hiddenable-carousel">
+                      <img src="/Assets/products/mugh.jpg" class="card-img-top" alt="café">
+                      <div class="card-body">
+                        <h5 class="card-title">El mejor café</h5>
+                        <p class="card-text">Descripción del café</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <p class="card-text"><small class="text-muted">En exitencia</small></p>
+                      </div>
+                    </div>
+      
+                    <div class="card text-center" id="hiddenable-carousel">
+                      <img src="/Assets/products/mugh.jpg" class="card-img-top" alt="café">
+                      <div class="card-body">
+                        <h5 class="card-title">El mejor café</h5>
+                        <p class="card-text">Descripción del café</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <p class="card-text"><small class="text-muted">En exitencia</small></p>
+                      </div>
+                    </div>
+      
+                  </div>
+                </div>
+                
+                <div class="carousel-item">
+                  <div class="card-group">
+
+                    <div class="card text-center">
+                      <img src="/Assets/products/mugh.jpg" class="card-img-top" alt="café">
+                      <div class="card-body">
+                        <h5 class="card-title">El mejor café</h5>
+                        <p class="card-text">Descripción del café.</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <p class="card-text"><small class="text-muted">En exitencia</small></p>
+                      </div>
+                    </div>
+      
+                    <div class="card text-center" id="hiddenable-carousel">
+                      <img src="/Assets/products/mugh.jpg" class="card-img-top" alt="café">
+                      <div class="card-body">
+                        <h5 class="card-title">El mejor café</h5>
+                        <p class="card-text">Descripción del café</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <p class="card-text"><small class="text-muted">En exitencia</small></p>
+                      </div>
+                    </div>
+      
+                    <div class="card text-center" id="hiddenable-carousel">
+                      <img src="/Assets/products/mugh.jpg" class="card-img-top" alt="café">
+                      <div class="card-body">
+                        <h5 class="card-title">El mejor café</h5>
+                        <p class="card-text">Descripción del café</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <p class="card-text"><small class="text-muted">En exitencia</small></p>
+                      </div>
+                    </div>
+      
+                  </div>
                 </div>
               </div>
-
-              <div class="card text-center">
-                <img src="/Assets/products/mugh.jpg" class="card-img-top" alt="café">
-                <div class="card-body">
-                  <h5 class="card-title">El mejor mug</h5>
-                  <p class="card-text">Descripción</p>
-                  <a href="#" class="btn btn-primary">Comprar</a>
-                  <p class="card-text"><small class="text-muted">En exitencia</small></p>
-                </div>
-              </div>
-
-              <div class="card text-center">
-                <img src="/Assets/products/mugh.jpg" class="card-img-top" alt="café">
-                <div class="card-body">
-                  <h5 class="card-title">El mejor mug</h5>
-                  <p class="card-text">Descripción</p>
-                  <a href="#" class="btn btn-primary">Comprar</a>
-                  <p class="card-text"><small class="text-muted">En exitencia</small></p>
-                </div>
-              </div>
-
+              <button class="carousel-control-prev" id="carousel-button" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev" style="filter: invert(100%);">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" id="carousel-button" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
             
           </div>
