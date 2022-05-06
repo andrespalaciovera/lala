@@ -1,3 +1,4 @@
+/* ----------------------------------------------------Navbar */
 .navbar-brand{
     margin-left: 36%;
 }
@@ -23,21 +24,6 @@ a {
 
 a:hover{
     color: #c5c5c5 !important;
-}
-
-#main .carousel-inner img{
-    max-height: 60vh;
-    object-fit: cover;
-
-}
-
-#img-top{
-    height: 300px !important;
-}
-
-#tittle-footer{
-    color: #fe8431;
-
 }
 
 ul{
@@ -74,6 +60,61 @@ img{
 #heading div{
     height: 150px;
 }
+
+/* ----------------------------------------------------Navbar */
+
+/* ----------------------------------------------------Main Carousel */
+
+#main .carousel-inner img{
+    max-height: 60vh;
+    object-fit: cover;
+
+}
+
+#img-top{
+    height: 300px !important;
+}
+
+/* ----------------------------------------------------Main Carousel */
+
+/* ----------------------------------------------------Main Carousel */
+
+/* ----------------------------------------------------About us */
+
+#darker{
+    position: relative;
+    box-sizing: border-box;
+    width: 370px;
+    height: 240px;
+    padding: 5px;
+}
+
+#img{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#text{
+    display: unset;
+    z-index: 100 !important;
+    position: absolute !important;
+    color: white !important;
+    font-size: 24px !important;
+    font-weight: bold !important;
+    left: 15px !important;
+    top: 35px !important;
+}
+
+#darker:hover{
+    filter: grayscale(100%);
+    transition: 1s;
+}
+
+
+/* ----------------------------------------------------About us */
+
+/* ----------------------------------------------------Product Carousel */
 
 @media only screen and (max-width: 880px) {
 
@@ -118,9 +159,18 @@ img{
     background: rgb(250, 250, 250) !important;
 }
 
+/* ----------------------------------------------------Product Carousel */
+
+/* ----------------------------------------------------Footer */
+
 #footer-logo{
     height: 80px;
     width: 80px;
+}
+
+#tittle-footer{
+    color: #fe8431;
+
 }
 
 #footer-icon{
@@ -142,3 +192,5 @@ img{
     }
     
 }
+
+/* ----------------------------------------------------Footer */
