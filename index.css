@@ -79,40 +79,6 @@ img{
 
 /* ----------------------------------------------------Main Carousel */
 
-/* ----------------------------------------------------About us */
-
-#darker{
-    position: relative;
-    box-sizing: border-box;
-    width: 370px;
-    height: 240px;
-    padding: 5px;
-}
-
-#img{
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-
-#text{
-    display: unset;
-    z-index: 100 !important;
-    position: absolute !important;
-    color: white !important;
-    font-size: 24px !important;
-    font-weight: bold !important;
-    left: 15px !important;
-    top: 35px !important;
-}
-
-#darker:hover{
-    filter: grayscale(100%);
-    transition: 1s;
-}
-
-
-/* ----------------------------------------------------About us */
 
 /* ----------------------------------------------------Product Carousel */
 
@@ -160,6 +126,163 @@ img{
 }
 
 /* ----------------------------------------------------Product Carousel */
+
+/* ----------------------------------------------------About us */
+
+#darker{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    width: 447px;
+    height: 240px;
+    padding: 5px;
+    padding-right: 0px;
+}
+
+#img{
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+    filter: grayscale(100%);
+}
+
+#darker img{
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+#darker2{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    width: 447px;
+    height: 240px;
+    padding: 5px;
+    padding-right: 0px;
+}
+
+#darker2 img{
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+#darker3{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    width: 447px;
+    height: 240px;
+    padding: 5px;
+    padding-right: 0px;
+}
+
+#darker3 img{
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+
+
+#img:hover{
+    filter: grayscale(0%);
+}
+
+#text{
+    display: unset;
+    z-index: 100 !important;
+    position: absolute !important;
+    color: #fe8431 !important;
+    font-size: 24px !important;
+    font-weight: bold !important;
+    left: 15px !important;
+    top: 35px !important;
+}
+
+#text2{
+    display: unset;
+    z-index: 100 !important;
+    position: absolute !important;
+    color: #fe8431 !important;
+    font-size: 24px !important;
+    font-weight: bold !important;
+    left: 15px !important;
+    top: 35px !important;
+}
+
+#text3{
+    display: unset;
+    z-index: 100 !important;
+    position: absolute !important;
+    color: #fe8431 !important;
+    font-size: 24px !important;
+    font-weight: bold !important;
+    left: 15px !important;
+    top: 35px !important;
+}
+
+
+
+#darker:hover{
+    transition: 1s;
+}
+
+#darker2:hover{
+    transition: 1s;
+}
+
+#darker3:hover{
+    transition: 1s;
+}
+/* ----------------------------------------------------About us */
+
+/*-----------------------------------------------------About us content */
+
+.fill{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+
+.fill img{
+    object-fit: cover;
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+#back{
+    position: relative;
+}
+
+#back .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #ffffff;
+}
+
+/*-----------------------------------------------------About us content */
+
 
 /* ----------------------------------------------------Footer */
 

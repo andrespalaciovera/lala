@@ -755,7 +755,7 @@
       <div class="container-fluid bg-light" >
         <div class="row" id="heading">
           <div class="col mx-auto text-center align-middle" >
-            <h3 class="display-5">Conoce más sobre nosotros</h3>
+            <h3 class="display-5">Conoce más sobre nosotras</h3>
           </div>
         </div>
       </div>
@@ -764,21 +764,142 @@
 
         <div class="row">
 
-            <div class="col-12 col-md-4 ms-1" id="darker">            
-            
+          <div class="col-12 col-md-4 ms-3 ms-sm-0 mb-4" id="darker" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">            
             <img src="/Assets/images/PetCare.jpg" class="figure-img img-fluid rounded" alt="Pet Care" id="img">
             <h3 class="display-6" id="text">¿Cómo apoyamos a los refugios animales?</h3>
+          </div>
 
+          <div class="col-12 col-md-4 ms-3 ms-sm-0 mb-4" id="darker2" data-bs-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">            
+            <img src="/Assets/images/Entrepreneur.jpg" class="figure-img img-fluid rounded" alt="Pet Care" id="img">
+            <h3 class="display-6" id="text2">¿Cómo apoyamos a las emprendedoras?</h3>
+          </div>
 
+          <div class="col-12 col-md-4 ms-3 ms-sm-0 mb-4" id="darker3" data-bs-toggle="collapse" href="#multiCollapseExample3" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">            
+            <img src="/Assets/images/HealthCare.jpg" class="figure-img img-fluid rounded" alt="Pet Care" id="img">
+            <h3 class="display-6" id="text3">¿Cómo apoyamos a las que guerrean por su salud?</h3>
           </div>
 
         </div>
+
+        <div class="row">
+          <div class="col-12">
+            <div class="collapse " id="multiCollapseExample1">
+
+              <div class="container">
+                
+                <div class="row">
+
+                  <div class="fill col" id="back">            
+                    <img src="./Assets/images/PetCareInside.jpg" class="img-fluid rounded" alt="Entrepreneur Inside" >
+                    <div class="overlay">
+
+                      <div class="container">
+                        <div class="row">
+                          <div class="col">
+                            <div class="display-6">
+                              Así ayudamos a los refugios
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                    
+                  </div>
+                  
+
+                  <div class="col">                    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quisquam tempore ea, eligendi rem natus quasi repellendus eaque accusamus sunt nesciunt, veritatis aut neque iste quidem quod excepturi id illo!</p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="collapse " id="multiCollapseExample2">
+              
+              <div class="container">
+                
+                <div class="row">
+
+                  <div class="fill col" id="back">            
+                    <img src="./Assets/images/EntrepreneurInside.jpg" class="img-fluid rounded" alt="Entrepreneur Inside" >
+                    <div class="overlay">
+
+                      <div class="container">
+                        <div class="row">
+                          <div class="col">
+                            <div class="display-6">
+                              Así ayudamos a las emprendedoras
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                    
+                  </div>
+                  
+
+                  <div class="col">                    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quisquam tempore ea, eligendi rem natus quasi repellendus eaque accusamus sunt nesciunt, veritatis aut neque iste quidem quod excepturi id illo!</p>
+                  </div>
+
+                </div>
+
+              </div>
+              
+            </div>
+            <div class="col-12">
+              <div class="collapse " id="multiCollapseExample3">
+
+                <div class="container">
+                
+                  <div class="row">
+
+                    <div class="fill col" id="back">            
+                      <img src="./Assets/images/HealthCareInside.jpg" class="img-fluid rounded" alt="Entrepreneur Inside" >
+                      <div class="overlay">
+
+                        <div class="container">
+                          <div class="row">
+                            <div class="col">
+                              <div class="display-6">
+                                Así ayudamos a las luchadoras de vida
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                      
+                    </div>
+                    
+
+                    <div class="col">                    
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quisquam tempore ea, eligendi rem natus quasi repellendus eaque accusamus sunt nesciunt, veritatis aut neque iste quidem quod excepturi id illo!</p>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+          </div>
         <!-- /About us -->
 
       </div>
 
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col bg-light">
 
-      
+          </div>
+        </div>
+      </div>      
 
     </main>
     <!-- /Main -->
@@ -844,23 +965,26 @@
         $('#darker').hover(function(){
           $('#text').fadeOut();
         })
-        
-
 
         $('#darker').mouseout(function(){
           $('#text').fadeIn();
         });
 
+        $('#darker2').hover(function(){
+          $('#text2').fadeOut();
+        })
 
+        $('#darker2').mouseout(function(){
+          $('#text2').fadeIn();
+        });
 
-        /*$("#darker").on({
-          hover: function(){
-            $('#text').css({"display": "none"});
-          },
-          mouseout: function(){
-            $('#text').css("display", "undefined");
-          },
-        });*/
+        $('#darker3').hover(function(){
+          $('#text3').fadeOut();
+        })
+
+        $('#darker3').mouseout(function(){
+          $('#text3').fadeIn();
+        });
         
       });
     </script>
