@@ -346,3 +346,7 @@ img{
 #backHeader .overlayHeader h3{
     color: #fff;
 }
+
+.hiddenableDescription{
+    display: none;
+}
