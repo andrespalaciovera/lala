@@ -100,7 +100,7 @@
             <!-- Products -->
             <div class="row">
 
-                <div class="col-12 col-lg-3 my-3">
+                <div class="col-12 col-lg-3 my-3" id="product">
                     <div class="card text-center" style="width: 18rem;">
                         <img src="/Assets/selling/Pink.png" class="card-img-top" alt="...">
 
@@ -115,7 +115,39 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-lg-3 my-3">
+                <div class="col-12 col-lg-3 my-3" id="product">
+                    <div class="card text-center" style="width: 18rem;">
+                        <img src="/Assets/selling/White.png" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Título del Producto</h5>
+
+                            <div class="hiddenableDescription">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi et quisquam placeat </p>
+                            </div>
+
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-lg-3 my-3" id="product">
+                    <div class="card text-center" style="width: 18rem;">
+                        <img src="/Assets/selling/Purple.png" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Título del Producto</h5>
+
+                            <div class="hiddenableDescription">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi et quisquam placeat </p>
+                            </div>
+
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-lg-3 my-3" id="product">
                     <div class="card text-center" style="width: 18rem;">
                         <img src="/Assets/selling/Pink.png" class="card-img-top" alt="...">
 
@@ -129,9 +161,78 @@
                             <a href="#" class="btn btn-primary">Comprar</a>
                         </div>
                     </div>
-                </div>
+                </div>   
 
             </div>
+
+            <div class="row">
+
+                <div class="col-12 col-lg-3 my-3" id="product">
+                    <div class="card text-center" style="width: 18rem;">
+                        <img src="/Assets/selling/Pink.png" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Título del Producto</h5>
+
+                            <div class="hiddenableDescription">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi et quisquam placeat </p>
+                            </div>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-3 my-3" id="product">
+                    <div class="card text-center" style="width: 18rem;">
+                        <img src="/Assets/selling/White.png" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Título del Producto</h5>
+
+                            <div class="hiddenableDescription">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi et quisquam placeat </p>
+                            </div>
+
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-lg-3 my-3" id="product">
+                    <div class="card text-center" style="width: 18rem;">
+                        <img src="/Assets/selling/Purple.png" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Título del Producto</h5>
+
+                            <div class="hiddenableDescription">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi et quisquam placeat </p>
+                            </div>
+
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-lg-3 my-3" id="product">
+                    <div class="card text-center" style="width: 18rem;">
+                        <img src="/Assets/selling/Pink.png" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Título del Producto</h5>
+
+                            <div class="hiddenableDescription">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi et quisquam placeat </p>
+                            </div>
+
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>   
+
+            </div>
+
+            
             <!-- /Products -->
             
 
@@ -146,7 +247,7 @@
         $(document).ready(function(){
   
             $(".card").hover(function(){
-                $("this .hiddenableDescription").slideToggle();
+                $(this).children('.card-body').children('.hiddenableDescription').slideToggle();
             });
           
         });
