@@ -1,4 +1,17 @@
 /* ----------------------------------------------------Navbar */
+
+#logo{
+    position: absolute;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+
+#collapseable{
+    margin-left:auto;
+    margin-right:0;
+}
+
+/*
 .navbar-brand{
     margin-left: 36%;
 }
@@ -59,7 +72,7 @@ img{
 
 #heading div{
     height: 150px;
-}
+}*/
 
 /* ----------------------------------------------------Navbar */
 

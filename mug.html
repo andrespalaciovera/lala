@@ -19,35 +19,59 @@
   <body>
 
     <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-primary" id="navbar">
         <div class="container-fluid">
+
+            <div class="d-flex">
+
+                <a href="#">
+                    <div id="header-icon-signup">
+                    <img src="/Assets/icons/login-face.png" alt="login">
+                    </div>
+                </a>
+
+                <div id="header-icon-signup">
+                    <a href="#">
+                    <img src="/Assets/icons/shopping-cart.png" alt="login">
+                    </a>
+                </div>
+
+            </div>
             
-            
-            <a class="navbar-brand" href="brand" id="logo">
-                <img src="/Assets/icons/lala-logo-orange.png" alt="" height="30">
+            <a class="navbar-brand" id="header-logo" href="./index.html">
+                <img src="/Assets/icons/lala-logo-orange.png" alt="Lala">
             </a>
 
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link active text-end" aria-current="page" href="#">Home</a>
-                    <a class="nav-link text-end" href="#" id="left">Features</a>
-                </div>
-            </div>
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
-            <div class="navbar-nav">
-                <a class="nav-link active text-end" aria-current="page" href="#">login</a>
-                <a class="nav-link text-end" href="#" id="left">cart</a>
+                    <li class="nav-item mx-auto text-end">
+                    <a class="nav-link active" aria-current="page" href="#" id="header-icon">
+                        <div id="hiddenable-text">Cafeteras</div>
+                        <img src="/Assets/icons/cafetera.png" alt="Cafeteras" id="hiddenable">
+                    </a>
+                    </li>
+
+                    <li class="nav-item mx-auto text-center">
+                    <a class="nav-link active" aria-current="page" href="#" id="header-icon">
+                        <div class="text-center" id="hiddenable-text">Mugs</div>
+                        <img src="/Assets/icons/mug.png" alt="Mugs" id="hiddenable">
+                    </a>
+                    </li>
+
+                </ul>
+
             </div>
 
         </div>
+
     </nav>
-      
     <!-- /Header -->
 
     <!-- Main -->
@@ -230,9 +254,4 @@
 
     </script>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
 </body>
-
- 
