@@ -21,32 +21,54 @@
     <!-- Header -->
 
     <nav class="navbar navbar-expand-lg navbar-light bg-primary" id="navbar">
+
+        <a href="brand" id="logoNavbar" >
+            <img src="/Assets/icons/lala-logo-orange.png" alt="" height="30">
+        </a>
+
         <div class="container-fluid">
             
             
-            <a class="navbar-brand" href="brand" id="logo">
-                <img src="/Assets/icons/lala-logo-orange.png" alt="" height="30">
-            </a>
 
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" >
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link active text-end" aria-current="page" href="#">Home</a>
-                    <a class="nav-link text-end" href="#" id="left">Features</a>
-                </div>
+            <div class="navbar-nav" id="collapsable">
+                <a class="nav-link active text-end" aria-current="page" href="#">Café</a>
+                <a class="nav-link text-end" href="#" id="left">Cafeteras</a>
+                <a class="nav-link text-end" href="#" id="left">Mugs</a>
             </div>
+            
+            <div class="d-flex">
 
-            <div class="navbar-nav">
-                <a class="nav-link active text-end" aria-current="page" href="#">login</a>
-                <a class="nav-link text-end" href="#" id="left">cart</a>
-            </div>
+                <a href="#">
+                  <div>
+                    <img src="/Assets/icons/login-face.png" alt="login" id="header-icon-signup">
+                  </div>
+                </a>
+      
+                <div>
+                  <a href="#">
+                    <img src="/Assets/icons/shopping-cart.png" alt="login" id="header-icon-signup">
+                  </a>
+                </div>
+      
+              </div>
 
         </div>
+        
     </nav>
+
+    <div class="collapse navbar-collapse navbar-light bg-primary" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-link active text-center" aria-current="page" href="#">Café</a>
+            <a class="nav-link text-center" href="#" id="left">Cafeteras</a>
+            <a class="nav-link text-center" href="#" id="left">Mugs</a>
+        </div>
+    </div>
       
     <!-- /Header -->
 
