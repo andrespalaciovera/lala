@@ -116,6 +116,7 @@ img{
 /* ----------------------------------------------------About us */
 
 .imgContainer{
+    cursor: pointer;
     display: flex;
     position: relative;
     justify-content: center;
