@@ -115,126 +115,44 @@ img{
 
 /* ----------------------------------------------------About us */
 
-#darker{
-    cursor: pointer;
+.imgContainer{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
     position: relative;
-    box-sizing: border-box;
-    width: 447px;
-    height: 240px;
-    padding: 5px;
-    padding-right: 0px;
+    justify-content: center;
+    padding: 0 !important;
 }
 
-#img{
-    object-fit: cover;
-    position: absolute;
-    left: 0;
-    top: 0;
-    filter: grayscale(100%);
-}
-
-#darker img{
+.imgContainer #img {
+    object-fit: fill;
     flex-shrink: 0;
     min-width: 100%;
-    min-height: 100%
+    min-height: 100%;
+    filter: blur(5px) !important; 
+    transition: 1s;
 }
 
-#darker2{
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    position: relative;
-    box-sizing: border-box;
-    width: 447px;
-    height: 240px;
-    padding: 5px;
-    padding-right: 0px;
+.textOverImage{
+    z-index: 100 !important;
+    position: absolute !important;
+    color: #fe8431 !important;
+    font-size: 24px !important;
+    font-weight: bold !important;
+    left: 15px !important;
+    top: 200px !important;
 }
-
-#darker2 img{
-    flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%
-}
-
-#darker3{
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    position: relative;
-    box-sizing: border-box;
-    width: 447px;
-    height: 240px;
-    padding: 5px;
-    padding-right: 0px;
-}
-
-#darker3 img{
-    flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%
-}
-
-
 
 #img:hover{
-    filter: grayscale(0%);
-}
-
-#text{
-    display: unset;
-    z-index: 100 !important;
-    position: absolute !important;
-    color: #fe8431 !important;
-    font-size: 24px !important;
-    font-weight: bold !important;
-    left: 15px !important;
-    top: 35px !important;
-}
-
-#text2{
-    display: unset;
-    z-index: 100 !important;
-    position: absolute !important;
-    color: #fe8431 !important;
-    font-size: 24px !important;
-    font-weight: bold !important;
-    left: 15px !important;
-    top: 35px !important;
-}
-
-#text3{
-    display: unset;
-    z-index: 100 !important;
-    position: absolute !important;
-    color: #fe8431 !important;
-    font-size: 24px !important;
-    font-weight: bold !important;
-    left: 15px !important;
-    top: 35px !important;
-}
-
-
-
-#darker:hover{
+    filter: blur(0px) !important;
     transition: 1s;
 }
 
-#darker2:hover{
-    transition: 1s;
+.textOverImage:hover{
+    display: none;
 }
 
-#darker3:hover{
-    transition: 1s;
-}
+
+
+
 /* ----------------------------------------------------About us */
 
 /*-----------------------------------------------------About us content */
