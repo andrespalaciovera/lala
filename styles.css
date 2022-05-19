@@ -1,10 +1,7 @@
-
-
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
 
 #tittleImportant{
-    font-family: 'Pacifico', cursive;
+    font-family: 'Patua One', cursive;
     color: rgb(192, 171, 212);
 }
 
