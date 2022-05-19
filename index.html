@@ -20,55 +20,7 @@
 
             <!-- Header -->
 
-    <nav class="navbar navbar-expand-lg navbar-dark" id="navbar" style="background: rgba(0, 0, 0, 0.0);">
-
-      <a href="brand" id="logoNavbar" >
-          <img src="/Assets/icons/lala-logo-orange.png" alt="" height="50">
-      </a>
-
-      <div class="container-fluid">
-          
-          
-
-
-
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" >
-              <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="navbar-nav" id="collapsable">
-              <a class="nav-link active text-end" aria-current="page" href="#">Café</a>
-              <a class="nav-link text-end" href="#" id="left">Cafeteras</a>
-              <a class="nav-link text-end" href="#" id="left">Mugs</a>
-          </div>
-          
-          <div class="d-flex">
-
-              <a href="#">
-                <div>
-                  <img src="/Assets/icons/login-face.png" alt="login" id="header-icon-signup">
-                </div>
-              </a>
     
-              <div>
-                <a href="#">
-                  <img src="/Assets/icons/shopping-cart.png" alt="login" id="header-icon-signup">
-                </a>
-              </div>
-    
-            </div>
-
-      </div>
-      
-  </nav>
-
-  <div class="collapse navbar-collapse navbar-light bg-primary" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-          <a class="nav-link active text-center" aria-current="page" href="#">Café</a>
-          <a class="nav-link text-center" href="#" id="left">Cafeteras</a>
-          <a class="nav-link text-center" href="#" id="left">Mugs</a>
-      </div>
-  </div>
     
   <!-- /Header -->
 
@@ -79,7 +31,63 @@
       <section>
         <div class="carousel slide carousel-fade" data-bs-ride="carousel">
 
-          <div class="carousel-inner">
+          <div id="carousel" class="carousel-inner">
+
+            <!--Nav-->
+            <div class="container-fuid">
+              <div class="row">
+                <nav class="navbar navbar-expand-lg navbar-dark" id="navbar" style="background: rgba(0, 0, 0, 0.0);">
+
+                  <a href="brand" id="logoNavbar" >
+                      <img src="/Assets/icons/lala-logo-orange.png" alt="" height="50">
+                  </a>
+            
+                  <div class="container-fluid">
+                      
+                      
+            
+            
+            
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" >
+                          <span class="navbar-toggler-icon"></span>
+                      </button>
+            
+                      <div class="navbar-nav" id="collapsable">
+                          <a class="nav-link active text-end" aria-current="page" href="#">Café</a>
+                          <a class="nav-link text-end" href="#" id="left">Cafeteras</a>
+                          <a class="nav-link text-end" href="#" id="left">Mugs</a>
+                      </div>
+                      
+                      <div class="d-flex">
+            
+                          <a href="#">
+                            <div>
+                              <img src="/Assets/icons/login-face.png" alt="login" id="header-icon-signup">
+                            </div>
+                          </a>
+                
+                          <div>
+                            <a href="#">
+                              <img src="/Assets/icons/shopping-cart.png" alt="login" id="header-icon-signup">
+                            </a>
+                          </div>
+                
+                        </div>
+            
+                  </div>
+                  
+                </nav>
+              </div>
+            </div>
+            <!--/Nav-->
+        
+          <div class="collapse navbar-collapse navbar-light bg-primary" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                  <a class="nav-link active text-center" aria-current="page" href="#">Café</a>
+                  <a class="nav-link text-center" href="#" id="left">Cafeteras</a>
+                  <a class="nav-link text-center" href="#" id="left">Mugs</a>
+              </div>
+          </div>
 
             <div class="carousel-item active">
               <img src="/Assets/images/bannera.png" class="d-block w-100" alt="carousel 1">
@@ -103,7 +111,7 @@
        <div class="container-fluid bg-light" >
           <div class="row" id="heading">
             <div class="col mx-auto text-center align-middle" >
-              <h3 class="display-5">Productos Destacados</h3>
+              <h3 class="display-5" id="tittleImportant">Productos Destacados</h3>
             </div>
           </div>
         </div>
