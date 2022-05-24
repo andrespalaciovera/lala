@@ -9,8 +9,8 @@
     border: 1px solid black;
     display: flex !important;
     justify-content: center !important;
-    /*align-items: center !important;*/
-    background-color: aliceblue;
+    align-items: center !important;
+    background-color: white;
 }
 
 .container{
@@ -19,7 +19,7 @@
 }
 
 .sub-container{
-    width: 85%;
+    width: 100%;
     margin: auto;
 }
 
@@ -28,6 +28,23 @@
     justify-content: space-between;
 }
 
+#controls i{
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+}
+
+.previus, .next{
+    padding: 2px;
+    width: 30px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    transition: 0.3s ease-in-out;
+}
+
+.previus:hover, .next:hover{
+    filter: invert(100%);
+}
 
 
 @media (max-width:1600px){
@@ -36,11 +53,17 @@
     }
 }
 
+.slide{
+    display: flex;
+    justify-content: center;
+}
+
 .card{
     cursor: pointer !important;
     width: 15rem !important;
     background: rgb(192, 171, 212) !important;
     border: none !important;
+    transition: 0.3s ease-in-out;
 }
 
 .card:hover{
