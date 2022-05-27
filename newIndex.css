@@ -1,0 +1,43 @@
+body{
+    background-image: url(./Assets/images/lalaBack.png);
+    background-position: center center;
+    background-repeat: repeat;
+    background-size: 130%;
+    height: 1000px;
+}
+
+/*-----------------------------------------------------------------------------Nav---------------------------------------------------------------*/
+
+#myHeader header{
+    position: fixed;
+}
+
+#navFill{
+    height: 25vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; 
+}
+
+#navFill #mainImg{
+    height: 125px;
+    position: absolute;
+    top: 0;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+#myNav{
+    top: 1vh;
+    position: absolute;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+}
+
+#unHiddenable img{
+    height: 5vh;
+
+}
