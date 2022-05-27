@@ -8,15 +8,15 @@ let slider = tns({
     nextButton : ".next",
     responsive : {
         1600 : {
-            items : 3,
+            items : 4,
             gutter : 10
         },
         1024 : {
-            items : 3,
+            items : 4,
             gutter : 10
         },
         768 : {
-            items : 2,
+            items : 3,
             gutter :10
         },
         480 : {
