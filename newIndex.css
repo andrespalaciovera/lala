@@ -1,31 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
 
 body{
+
     font-family: 'Poppins', sans-serif;
-    /*
-    background-image: url(./Assets/images/lalaBack.png);
-    background-position: center center;
-    background-repeat: repeat;
-    background-size: 130%;
-    height: 1000px;*/
+
+    
 }
 
 
 
 /*-----------------------------------------------------------------------------Nav---------------------------------------------------------------*/
 
+#backContainer{
+    background-image: url(/Assets/images/lalaBack.png);
+    background-position: center center;
+    background-size: 130%;
+}
+
 .carouselContainer{
     background-image: url(./Assets/images/carouselContainer.png);
     background-position: center;
+    
+    
+}
+
+@media (max-width: 678px) {
+    .carouselContainer{
+        background-size: 100%;
+        background-repeat: no-repeat;
+        
+    }
+    
+}
+
+#mainImg{
+    height: 100%;
+    
 }
 
 #caouselExapleSlidesOnly{
     position: relative;
+    
+}
+
+#USP{
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    font-size: 8vw;
+    font-weight: 900;
+    color: #fe8431;    
+    overflow: hidden !important;
+    transition: 0.3s ease-in-out;
+}
+
+#USP:hover{
+    text-shadow: 0px 0px 5px #5f3285;
+
 }
 
 #caouselExapleSlidesOnly .carousel-item img{
     object-fit: cover;
+    
 }
 
 #navBar{
@@ -34,7 +73,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden; 
+    overflow: hidden;
+    
 }
 
 #navBar #mainImg{
@@ -43,6 +83,7 @@ body{
     top: 0;
     object-fit: cover;
     overflow: hidden;
+    
 }
 
 #myNav{
@@ -51,32 +92,42 @@ body{
     z-index: 100;
     display: flex;
     justify-content: space-between;
+    
 }
 
 #unHiddenable img{
     height: 5vh;
+    
 
 }
 
 #navBrand{
     position: relative;
+    
 }
 
 .hiddenableLink{
     color: white;
     text-decoration: none;
     transition: 0.3s ease-in-out;
+    
 }
 
 .hiddenableLink:hover{
     color: blueviolet;
+    
 }
 
 
 
 @media (max-width: 678px) {
+    #USP{
+        top: 15vh;
+
+    }
     .hiddenableLink{
         display: none;
+        
     }
     
 }
@@ -84,37 +135,47 @@ body{
 .navbar-nav a{
     color: white;
     transition: 0.5s ease-in-out;
+    
 }
 
 .navbar-nav a:hover{
     color: blueviolet;
+    
 }
 
 /*-----------------------------------------------------------------------------/Nav---------------------------------------------------------------*/
 
 /*-----------------------------------------------------------------------------Main---------------------------------------------------------------*/
 
-/*-----------------------------------------------------------------------------CarouselProduct---------------------------------------------------------------*/
-
 #partition{
     display: flex;
     justify-content: center;
     overflow: hidden;
+    
 }
 
 #partition img{
     width: 30vw;
     overflow: hidden;
+    
 }
 
-.tittleWrapper{
+#tittleSegment{
     display: flex;
     justify-content: center;
 }
 
-.tittleWrapper  h1{
-    font-weight: bold !important;
-    color: #5f3285 !important;
+#tittleSegment h1{
+font-weight: 900;
+color: #5f3285;
+}
+
+/*-----------------------------------------------------------------------------CarouselProduct---------------------------------------------------------------*/
+
+
+
+#contFluid{
+    overflow: hidden !important;
 }
 
 #slider{
@@ -123,20 +184,24 @@ body{
     justify-content: center !important;
     align-items: center !important;
 
+
 }
 
 .myContainer{
     width: 1600px;
     margin: auto;
+    
 }
 
 .sub-container{
     width: 100%;
     margin: auto;
+    
 }
 
 .slider-wrapper{
     position: relative !important;
+    
 }
 
 #controls{
@@ -146,11 +211,13 @@ body{
     z-index: 100;
     top: 50% !important;
     width: 100%;
+    
 }
 
 .previus i, .next i{
     color: #5f3285;
     font-size: 1rem;
+    
 }
 
 .previus, .next{
@@ -160,28 +227,33 @@ body{
     border: none;
     background: none;
     transition: 0.3s ease-in-out;
+    
 }
 
 .previus:hover, .next:hover{
     filter: invert(50%);
+    
 }
 
 
 @media (max-width:1600px){
     .myContainer{
         width: 100%;
+        
     }
 }
 
 #contFluid, .my-slider{
     height: 500px;
     padding-top: 30px;
+    
 }
 
 
 .slide{
     display: flex;
     justify-content: center;
+    
 }
 
 #myCard{
@@ -190,28 +262,34 @@ body{
     background: #5f3285 !important;
     border: none !important;
     transition: 0.3s ease-in-out;
+    
 }
 
 #myCard:hover{
     box-shadow: 0px 0px 30px 30px rgba(172, 172, 172, 0.2);
+    
 }
 
 #myCard .titleCard{
     text-decoration: none !important;
     color: white;
     font-family: 'Roboto Flex', sans-serif;
+    
 }
 
 #myCard .card-title{
     font-family: 'Roboto Flex', sans-serif;
+    
 }
 
 #myCard .card-img-top{
     border-radius: 0px !important;
+    
 }
 
 #myCard .card-text{
     color: white;
+    
 }
 
 /*-----------------------------------------------------------------------------/CarouselProduct---------------------------------------------------------------*/
@@ -220,41 +298,29 @@ body{
 
 .buttonSection{
     background: rgb(240, 225, 255) !important;
+    
 }
 
 .tittleWrapper  .myTittle2{
     font-weight: bold !important;
     color: white !important;
+    overflow-x: hidden !important;
 }
 
 #buttonMenu{
     width: 20vw;
     transition: 0.3s ease-in-out;
+    overflow-x: hidden !important;
 }
 
 #buttonMenu:hover{
     filter: brightness(20%);
+    
 }
 
 /*-----------------------------------------------------------------------------/Buttons---------------------------------------------------------------*/
 
 /*-----------------------------------------------------------------------------Footer---------------------------------------------------------------*/
-
-#footerLogo{
-    height: 80px;
-    width: 80px;
-}
-
-#tittle-footer{
-    color: #fe8431;
-
-}
-
-#footer-icon{
-    height: 30px;
-    width: 30px;
-}
-
 #footer{
     background: #606060;
     height: 400px;
@@ -269,5 +335,10 @@ body{
     }
     
 }
+
+#footer-logo img{
+    height: 25%;
+}
+
 
 /*-----------------------------------------------------------------------------Footer---------------------------------------------------------------*/
