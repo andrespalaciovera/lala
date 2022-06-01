@@ -18,6 +18,10 @@ body{
     background-size: 130%;
 }
 
+#navbarNavAltMarkup{
+    background: #521f85 !important;
+}
+
 .carouselContainer{
     background-image: url(./Assets/images/carouselContainer.png);
     background-position: center;
