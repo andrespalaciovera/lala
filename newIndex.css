@@ -12,14 +12,26 @@ body{
 
 /*-----------------------------------------------------------------------------Nav---------------------------------------------------------------*/
 
-#backContainer{
+#backContainer{/*
     background-image: url(/Assets/images/lalaBack.png);
     background-position: center center;
-    background-size: 130%;
+    background-size: 130%;*/
 }
 
 #navbarNavAltMarkup{
     background: #521f85 !important;
+}
+
+#offcanvasTop{
+    background: #521f85 !important;
+}
+
+#dropdownMenu{
+    background: #250c3e;
+}
+
+#dropdownLinst{
+    list-style-type: none;
 }
 
 .carouselContainer{
@@ -50,7 +62,7 @@ body{
 
 #USP{
     position: absolute;
-    top: 50vh;
+    top: 5vh !important;
     left: 50%;
     transform: translate(-50%);
     text-align: center;

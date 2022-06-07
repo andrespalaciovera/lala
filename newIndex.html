@@ -24,13 +24,35 @@
     <!-- ---------------------------------------------------------Header---------------------------------------------------------- -->
     <header id="backContainer">
 
+      <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+        <div class="offcanvas-header">
+          <h5 id="offcanvasTopLabel">Offcanvas top</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          ...
+        </div>
+      </div>
+
       <div class="collapse navbar-collapse bg-primary" id="navbarNavAltMarkup">
-
-
         <div class="navbar-nav">
-          <a class="nav-link text-center" href="#">Café</a>
-          <a class="nav-link text-center" href="#">Café</a>
-          <a class="nav-link text-center" href="#">Café</a>
+          <a class="nav-link ms-2" href="#">Quienes somos</a>
+          <a class="nav-link ms-2" href="#">Café</a>
+          <a class="nav-link ms-2" href="#">Tienda</a>
+          <a class="nav-link dropdown-toggle ms-2" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" style="color: white;">
+            Activismo
+          </a>
+          <div class="collapse" id="collapseExample">
+            <div class="card card-body" id="dropdownMenu">
+              <ul id="dropdownLinst">
+                <li><a class="dropdown-item" href="#">Emprendimiento</a></li>
+                <li><a class="dropdown-item" href="#">Cáncer de mama</a></li>
+                <li><a class="dropdown-item" href="#">Protección animal</a></li>
+              </ul>
+            </div>
+          </div>
+          <a class="nav-link ms-2" href="#">Historias</a>
+          <a class="nav-link ms-2" href="#">Puntos de venta</a>
         </div>
       </div>
 
@@ -44,7 +66,7 @@
               
               <div class="container-fluid" id="myNav">
     
-                <div class="together">
+                <div class="together" >
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
@@ -53,9 +75,14 @@
                   <img src="./Assets/icons/lala-logo-orange.png" alt="" height="30" class="d-inline-block align-text-top">
                   </a>
     
+                  <a class="hiddenableLink mx-2" href="#">Quienes somos</a>
                   <a class="hiddenableLink mx-2" href="#">Café</a>
-                  <a class="hiddenableLink mx-2" href="#">Café</a>
-                  <a class="hiddenableLink mx-2" href="#">Café</a>            
+                  <a class="hiddenableLink mx-2" href="#">Tienda</a>
+                  <a class="hiddenableLink dropdown-toggle" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Activismo
+                  </a>
+                  <a class="hiddenableLink mx-2" href="#">Historias</a>
+                  <a class="hiddenableLink mx-2" href="#">Puntos de venta</a>            
                 </div>
     
                   <div class="d-flex" id="unHiddenable">
@@ -70,12 +97,12 @@
 
             <div class="carousel-item active">
               <img src="/Assets/images/uno.png" class="d-block w-100" alt="...">
-              <h1 id="USP"> Lala Lovers</h1>
+              <h1 id="USP">Por ti, para todas</h1>
             </div>
 
             <div class="carousel-item">
               <img src="/Assets/images/dos.png" class="d-block w-100" alt="...">
-              <h1 id="USP"> Lala Lovers</h1>
+              <h1 id="USP">Por ti, para todas</h1>
             </div>
 
             </div>
@@ -247,8 +274,8 @@
         <section class="buttonSection" style="border: 0;">
           <div class="d-flex flex-row mx-2 justify-content-center">
             <a href="#"><div class="p-2 mx-2" ><img src="/Assets/Buttons/Mugs.png" alt="" id="buttonMenu"></div></a>
-            <a href="#"><div class="p-2 mx-2" ><img src="/Assets/Buttons/Mugs.png" alt="" id="buttonMenu"></div></a>
-            <a href="#"><div class="p-2 mx-2" ><img src="/Assets/Buttons/Mugs.png" alt="" id="buttonMenu"></div></a>
+            <a href="#"><div class="p-2 mx-2" ><img src="/Assets/Buttons/Vasos.png" alt="" id="buttonMenu"></div></a>
+            <a href="#"><div class="p-2 mx-2" ><img src="/Assets/Buttons/Cafeteras.png" alt="" id="buttonMenu"></div></a>
           </div>          
         </section>
         
