@@ -11,10 +11,11 @@ body{
 
 /*-----------------------------------------------------------------------------Nav---------------------------------------------------------------*/
 
-#backContainer{/*
+#backContainer{
     background-image: url(/Assets/images/lalaBack.png);
     background-position: center center;
-    background-size: 130%;*/
+    background-size: 130%;
+    background-repeat: repeat-x;
 }
 
 #navbarNavAltMarkup{
@@ -82,13 +83,12 @@ body{
 }
 
 #USP{
-    background: white;
-    border-radius: 10%;
+    
     position: absolute;
-    top: 15vh;
-    left: 80%;
-    transform: translate(-50%);
-    text-align: right;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-50%);    
+    text-align: left;
     font-size: 4vw;
     font-weight: 900;
     color: #5f3285;    
@@ -96,9 +96,31 @@ body{
     transition: 0.3s ease-in-out;
 }
 
-#USP:hover{
-    text-shadow: 0px 0px 5px rgb(209, 209, 209);
+#USP{    
+    position: absolute;
+    top: 50vh;
+    left: 30%;
+    transform: translate(-50%);    
+    text-align: left;
+    font-size: 4vw;
+    font-weight: 900;
+    color: #5f3285;    
+    overflow: hidden !important;
+    transition: 0.3s ease-in-out;
+}
 
+#USP2{
+    
+    position: absolute;
+    top: 50vh;
+    right: 4%;
+    transform: translate(-50%);    
+    text-align: left;
+    font-size: 4vw;
+    font-weight: 900;
+    color: #5f3285;    
+    overflow: hidden !important;
+    transition: 0.3s ease-in-out;
 }
 
 #caouselExapleSlidesOnly .carousel-item img{
@@ -161,14 +183,17 @@ body{
 
 @media (max-width: 678px) {
     #USP{
-        top: 8vh;
-
+        top: 12vh;
     }
+
+    #USP2{
+        top: 12vh;
+    }
+
     .hiddenableLink{
         display: none;
         
-    }
-    
+    }    
 }
 
 .navbar-nav a{
@@ -228,8 +253,7 @@ color: #5f3285;
 
 .myContainer{
     width: 1600px;
-    margin: auto;
-    
+    margin: auto;    
 }
 
 .sub-container{
@@ -335,6 +359,21 @@ color: #5f3285;
 
 /*-----------------------------------------------------------------------------Buttons---------------------------------------------------------------*/
 
+.curly{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.curly img{
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+
 .buttonSection{
     background: rgb(240, 225, 255) !important;
     
@@ -358,6 +397,16 @@ color: #5f3285;
 }
 
 /*-----------------------------------------------------------------------------/Buttons---------------------------------------------------------------*/
+
+
+/*-----------------------------------------------------------------------------Video---------------------------------------------------------------*/
+
+#tittleVideo{
+    color: #5f3285;
+}
+
+/*-----------------------------------------------------------------------------/Video---------------------------------------------------------------*/
+
 
 /*-----------------------------------------------------------------------------Footer---------------------------------------------------------------*/
 #footer{
