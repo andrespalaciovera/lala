@@ -1,5 +1,6 @@
 let slider = tns({
     container : ".my-slider",
+    "loop": false,
     "slideBy" : 1,
     "speed" : 400,
     "nav" : false,
