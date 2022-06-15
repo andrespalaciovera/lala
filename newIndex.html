@@ -24,43 +24,6 @@
     <!-- ---------------------------------------------------------Header---------------------------------------------------------- -->
     <header id="backContainer">
 
-      <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
-
-        <div class="offcanvas-header">
-          <h2 id="offcanvasTopLabel" style=" margin-left: 50%; transform: translate(-50%); margin-right: auto; font-weight: 900; color: white;">Activismo</h2>
-          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close" style=" margin-right: auto; margin-right: 0;"></button>
-        </div>
-
-        <div class="offcanvas-body">
-         <div class="container-fluid">
-           <div class="row">
-                           
-              <div id="aboutButton" class="col">
-                <a href="#">
-                  <h6>Emprendimiento</h6>
-                  <img class="img-fluid" src="/Assets/aboutUsButtons/entrepenur.png" alt="">
-                </a>
-              </div>
-              <div id="aboutButton" class="col">
-                <a href="#">
-                  <h6>Protección animal</h6>
-                  <img class="img-fluid" src="/Assets/aboutUsButtons/petCare.png" alt="">
-                </a>
-              </div>
-              <div id="aboutButton" class="col">
-                <a href="#">
-                  <h6>Cáncer de mama</h6>
-                  <img class="img-fluid" src="/Assets/aboutUsButtons/cancerMama.png" alt="">
-                </a>
-              </div>
-
-                       
-           </div>
-         </div>
-        </div>
-        
-      </div>
-
       <div class="collapse navbar-collapse bg-primary" id="navbarNavAltMarkup">
         <div class="navbar-nav">
           <a class="nav-link ms-2" href="#">Quienes somos</a>
@@ -105,9 +68,14 @@
                   <a class="hiddenableLink mx-2" href="#">Quienes somos</a>
                   <a class="hiddenableLink mx-2" href="#">Café</a>
                   <a class="hiddenableLink mx-2" href="#">Tienda</a>
-                  <a class="hiddenableLink dropdown-toggle" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Activismo
-                  </a>
+                  <div class="hiddenableLink dropdown">
+                    <a class="hiddenableLink dropbtn">Activismo</a>
+                    <div class="dropdown-content">
+                      <a href="#">Emprendimiento</a>
+                      <a href="#">Cáncer de mama</a>
+                      <a href="#">Protección animal</a>
+                    </div>
+                  </div>
                   <a class="hiddenableLink mx-2" href="#">Historias</a>
                   <a class="hiddenableLink mx-2" href="#">Puntos de venta</a>            
                 </div>
@@ -466,7 +434,7 @@
 
         <div class="row ">
             <div class="col col-lg-4 mt-3" id="footer-logo">
-                <img src="/Assets/icons/lala-logo.png" alt="Lala">
+                <img src="/Assets/icons/lala-logo-orange.png" alt="Lala">
             </div>
             <div class="col-12 col-lg-4">
                 <div class="row row-cols-1">

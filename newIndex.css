@@ -129,7 +129,7 @@ body{
 }
 
 #navBar{
-    height: 25vh;
+    height: 40vh;
     position: relative;
     display: flex;
     justify-content: center;
@@ -206,6 +206,52 @@ body{
     color: blueviolet;
     
 }
+
+/*---------------------------------------------------------Dropdown--------------------------------------------------------------*/
+
+/* Dropdown Button */
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    text-decoration: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(240, 225, 255);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: blueviolet;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: 0.3s ease-in-out;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {color: white;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+
+/*---------------------------------------------------------Dropdown--------------------------------------------------------------*/
 
 /*-----------------------------------------------------------------------------/Nav---------------------------------------------------------------*/
 
@@ -514,7 +560,7 @@ color: #5f3285;
 
 /*-----------------------------------------------------------------------------Footer---------------------------------------------------------------*/
 #footer{
-    background: #7d7585;
+    background: #5f3285;
     height: 400px;
 }
 
@@ -523,7 +569,7 @@ color: #5f3285;
 }
 
 #tittle-footer{
-    color: #521f85;
+    color: #fe8431;
 
 }
 
